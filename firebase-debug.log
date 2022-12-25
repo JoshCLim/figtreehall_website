@@ -78,3 +78,6 @@
 [debug] [2022-12-25T02:27:33.384Z] [uploadQueue] Retrying task 9e6cf577c51bda0af3324cb6d2949e067c1d8077fb338bf8b348de0c8e6ba0a8
 [debug] [2022-12-25T02:27:33.385Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fig-tree-hall/versions/92afd25a78d61b06/files/9e6cf577c51bda0af3324cb6d2949e067c1d8077fb338bf8b348de0c8e6ba0a8 [none]
 [debug] [2022-12-25T02:27:33.385Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fig-tree-hall/versions/92afd25a78d61b06/files/9e6cf577c51bda0af3324cb6d2949e067c1d8077fb338bf8b348de0c8e6ba0a8 [stream]
+[debug] [2022-12-25T02:28:53.347Z] [uploadQueue] Retrying task 9e6cf577c51bda0af3324cb6d2949e067c1d8077fb338bf8b348de0c8e6ba0a8
+[debug] [2022-12-25T02:28:53.350Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/fig-tree-hall/versions/92afd25a78d61b06/files/9e6cf577c51bda0af3324cb6d2949e067c1d8077fb338bf8b348de0c8e6ba0a8 [none]
+[debug] [2022-12-25T02:28:53.350Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/fig-tree-hall/versions/92afd25a78d61b06/files/9e6cf577c51bda0af3324cb6d2949e067c1d8077fb338bf8b348de0c8e6ba0a8 [stream]
