@@ -8,3 +8,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.LoginInputContainer {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 20px;
+}
+
+.LoginInputContainer .LoginInputText {
+  border-top-right-radius: 0;
+}
