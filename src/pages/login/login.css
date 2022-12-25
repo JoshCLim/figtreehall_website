@@ -1,0 +1,21 @@
+.Login {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginInputContainer {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 20px;
+}
+
+.LoginInputContainer .LoginInputText {
+  border-top-right-radius: 0;
+}
