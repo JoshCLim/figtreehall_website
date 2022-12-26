@@ -12,6 +12,9 @@ import { Feedback } from "./pages/feedback/feedback";
 
 import { Navbar } from "./components/navbar";
 
+import { Button } from "@mui/material";
+import { ExitToApp } from "@mui/icons-material";
+
 import { auth } from "./config/firebase";
 import { signOut } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
@@ -19,7 +22,8 @@ import { useAuthState } from "react-firebase-hooks/auth";
 function App() {
   const [user] = useAuthState(auth);
 
-  return <>{user ? <Main /> : <Login />}</>;
+  // return <>{user ? <Main /> : <Login />}</>;
+  return <>{user ? <Main /> : <Main />}</>;
 }
 
 function Main() {
@@ -30,7 +34,7 @@ function Main() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -40,8 +44,16 @@ function Main() {
           <Route path="/feedback" element={<Feedback />} />
         </Routes>
 
-        <h1>fth website</h1>
-        <button onClick={signUserOut}>sign out</button>
+        <footer>
+          <h1>fth website</h1>
+          <Button
+            variant="contained"
+            onClick={signUserOut}
+            startIcon={<ExitToApp />}
+          >
+            Exit Site
+          </Button>
+        </footer>
       </Router>
     </div>
   );

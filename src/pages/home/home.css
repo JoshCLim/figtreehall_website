@@ -1,0 +1,29 @@
+.HomeHeroSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  /* color: #1b841b; */
+}
+
+.HomeHeroHeading {
+  margin-left: 10px;
+}
+
+.HomeSectionHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeSectionHeader h2 {
+  margin-left: 10px;
+}
+
+.HomeSectionHeading {
+  font-size: 1.4em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
