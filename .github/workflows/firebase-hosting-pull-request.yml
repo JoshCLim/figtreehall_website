@@ -15,4 +15,5 @@ jobs:
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIG_TREE_HALL }}"
+          expires: 30d
           projectId: fig-tree-hall
