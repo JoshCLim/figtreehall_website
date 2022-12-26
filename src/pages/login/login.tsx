@@ -73,14 +73,13 @@ function Login() {
 
   return (
     <div className="Login">
-      <p>enter a password to continue:</p>
+      <p className="LoginPrompt">enter a password to access the site:</p>
 
       <div className="LoginInputContainer">
         <TextField
           className="LoginInputText"
           color="success"
           error={showError}
-          sx={{ borderTopRightRadius: 0, borderBottomRightRadius: 0 }}
           label="password"
           variant="outlined"
           onChange={(e) => setInputPassword(e.target.value)}
@@ -100,11 +99,13 @@ function Login() {
         </LoadingButton>
       </div>
 
-      {showError && (
-        <Alert severity="error" className="errorMessage">
-          {errorMessage}
-        </Alert>
-      )}
+      <Alert
+        severity="error"
+        className="errorMessage"
+        sx={{ opacity: showError ? 100 : 0, userSelect: "none" }}
+      >
+        {errorMessage}
+      </Alert>
     </div>
   );
 }
