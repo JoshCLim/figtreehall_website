@@ -1,0 +1,47 @@
+/* .Event {
+  background-color: red;
+
+  width: 83%;
+  padding: 10px 20px;
+  margin: 0 auto;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+} */
+
+.EventInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  margin-bottom: 5px;
+
+  background-color: red;
+
+  border-radius: 20px;
+}
+
+.EventInfoContainer p {
+  margin: 0;
+}
+
+.EventName {
+  margin: 0;
+  text-align: left;
+}
+
+.EventDescription {
+  margin: 0;
+  text-align: left;
+}
+
+.EventInfoIcon {
+  margin-right: 5px;
+}
+
+.EventInfoText {
+  margin-left: 5px;
+}
