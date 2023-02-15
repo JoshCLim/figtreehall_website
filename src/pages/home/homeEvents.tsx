@@ -44,9 +44,11 @@ function HomeEvents() {
     <Grid
       container
       spacing={3}
-      justifyContent="center"
       alignItems="stretch"
       className="HomeEvents"
+      flexWrap="nowrap"
+      overflow="auto"
+      whiteSpace="nowrap"
     >
       {eventsList?.map((event) => (
         <Event event={event} key={event.id} />

@@ -11,6 +11,7 @@ import { Faqs } from "./pages/faqs/faqs";
 import { Feedback } from "./pages/feedback/feedback";
 
 import { Navbar } from "./components/navbar";
+import { OWeek } from "./components/oweek";
 
 import { Button } from "@mui/material";
 import { ExitToApp } from "@mui/icons-material";
@@ -20,6 +21,17 @@ import { signOut } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </Router>
+      <OWeek />
+    </div>
+  );
+
   const [user] = useAuthState(auth);
 
   return <>{user ? <Main /> : <Login />}</>;
